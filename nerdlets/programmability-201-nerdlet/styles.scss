@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  .row {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .chart {
+    height: 250px;
+  }
+}
+
+@import '~leaflet/dist/leaflet.css';
+
+.containerMap {
+  width: 100%;
+  z-index: 0;
+  height: 70vh;
+}
