@@ -1,7 +1,0 @@
-{
-    "schemaType": "LAUNCHER",
-    "id": "building-apps-201",
-    "description": "Programmability 201 application",
-    "displayName": "New Relic One: Programmability 201",
-    "rootNerdletId": "building-apps-201-nerdlet"
-}

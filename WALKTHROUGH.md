@@ -1,8 +1,8 @@
-# INSTRUCTIONS
+# Programmability 201: Building Applications: Cheat Codes
 
 ## Step Zero
 
-- Create a new Nerdlet and new Launucher
+- Create a new Nerdlet and new Launucher: `nr1 create`
   - Connect the launcher using the `nr1.json` files
 
 ## Step One
