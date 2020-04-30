@@ -1,2 +1,9 @@
 .DS_Store
 node_modules
+.idea
+.nos
+coverage
+dist
+tmp
+yarn.lock
+*.tar.gz
