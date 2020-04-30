@@ -12,7 +12,7 @@ Each step is created to allow you to practice building a complete New Relic Appl
 
 At the end of the Programmability 201 workshop, your final application will look similar to below:
 
-![Finished app]()
+![Finished app](https://github.com/newrelic-experimental/nr1-programmability-201-workshop/blob/master/screenshots/complete-application.png)
 
 
 ### Agenda
@@ -39,7 +39,7 @@ To complete **Step 0** do the following steps:
 
 Your application should look similar to this:
 
-![New Nerdpack]()
+![New Nerdpack](https://github.com/newrelic-experimental/nr1-programmability-201-workshop/blob/master/screenshots/step-0-complete.png)
 
 
 
@@ -58,7 +58,7 @@ To complete **Step 1** do the following steps:
 
 Your application should look similar to this:
 
-![Nerdlet with TableChart]()
+![Nerdlet with TableChart](https://github.com/newrelic-experimental/nr1-programmability-201-workshop/blob/master/screenshots/step-1-complete.png)
 
 
 ## Step 2: More Data. More Packages.
@@ -91,3 +91,15 @@ To complete **Step 2** do the following steps:
         - Map the query results returned from `NerdGraph`
             - Return a `CircleMarker` for each result
             - Use the `getMarkerColor` function to provide colors to the `CircleMarker` component
+
+
+Your application should look similar to below:
+
+![Step 2 complete](https://github.com/newrelic-experimental/nr1-programmability-201-workshop/blob/master/screenshots/step-2-complete.png)
+
+
+## Workshop Recap
+---
+---
+
+After completing all steps for the Programmability workshop, you've successfully created a New Relic application using chart components, NerdGraph, and third-party packages. To explore more of what's possible building applications on New Relic, review our open-sourced applications at [developer.newrelic.com](https://developer.newrelic.com/open-source/nerdpacks) and complete the open-source programmability workshop in [Github](https://github.com/newrelic/nr1-workshop).
