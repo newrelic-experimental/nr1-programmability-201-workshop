@@ -81,7 +81,7 @@ To complete **Step 2** do the following steps:
     height: 70vh;
     }
     ```
-3. Import components from **react-leaflet**: `import { Map, CircleMarker, TileLayer } from 'react-leaflet';`
+3. Import components from [**react-leaflet**](https://react-leaflet.js.org/): `import { Map, CircleMarker, TileLayer } from 'react-leaflet';`
 4. Import and use `NerdGraphQuery` to query the data needed build the map
     - Import `NerdGrpahQuery` from `nr1`
     - Import `mapData` and `getMarkerColor` from './helpers' into your Nerdlets index.js file
