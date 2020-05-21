@@ -35,7 +35,7 @@ To complete **Step 0** do the following steps:
     - WALKTHROUGH.md (Cheat Codes)
 2. Create a Nerdlet using the NR1 CLI
 3. Create a launcher using the NR1 CLI
-4. Connect your lauuncher to the new Nerdlet
+4. Connect your launcher to the new Nerdlet
 5. Update your application UUID
 6. Serve your Nerdpack and view your application in [New Relic One](https://one.newrelic.com/?nerdpacks=local)
 
