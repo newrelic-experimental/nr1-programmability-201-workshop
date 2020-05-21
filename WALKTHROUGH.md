@@ -91,7 +91,7 @@ npm install --save leaflet react-leaflet
 @import '~leaflet/dist/leaflet.css';
 
 .containerMap {
-  width: 100%;
+  width: 98.5vw;
   z-index: 0;
   height: 70vh;
 }
