@@ -2,12 +2,12 @@
 
 ## Step Zero
 
-- Create a new Nerdlet and new Launucher: `nr1 create`
+- Create a new Nerdlet and new Launcher: `nr1 create`
   - Connect the launcher using the `nr1.json` files
 
 ## Step One
 
-- Create your `Grid` in the application retun statement
+- Create your `Grid` in the application return statement
 
 ```js
 return (
@@ -111,7 +111,7 @@ import { mapData, getMarkerColor } from '../../helpers'
 SELECT count(*), average(duration), sum(asnLatitude)/count(*) as lat, sum(asnLongitude)/count(*) as lng FROM PageView FACET regionCode, countryCode WHERE appName = 'WebPortal' LIMIT 1000
 ```
 
-- Add default center to constructor
+- Add default center to the constructor
 
 ```js
 this.defaultMapCenter = [10.5731, -7.5898]
@@ -138,7 +138,7 @@ this.defaultMapCenter = [10.5731, -7.5898]
 </GridItem>
 ```
 
-- Create Map using reat-leaf component inside of NerdGraph component
+- Create Map using react-leaf component inside of NerdGraph component
 
 ```js
 <GridItem>
