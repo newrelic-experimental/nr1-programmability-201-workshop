@@ -16,7 +16,9 @@ This workshop assumes you have **completed the following prerequisites**:
 
 This workshop intentionally fails to provide step-by-step instructions in the primary content. Instead, inviting the learner to engage the material and see solutions. You'll make use of the following resources in this workshop.
 
-1. The [INSTRUCTIONS.md](INSTRUCTIONS.md) contains the basic
+1. The [INSTRUCTIONS.md](INSTRUCTIONS.md) contains the basic steps of the 90-minute workshop.
+2. [RESOURCES.md](RESOURCES.md) provides links to multiple helpful online assets.
+3. [WALKTHROUGH.md](WALKTHROUGH.md) offers more helpful hints for completing the workshop material, including complete code snippets.
 
 ## Open Source License
 
