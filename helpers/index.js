@@ -1,7 +1,8 @@
 export const mapData = function(countryCode) {
+    //by default leveraging the demotron sandbox account: 1966971
     const query = `{
         actor {
-            account(id: 1606862) {
+            account(id: 1966971) {
                 mapData: nrql(query: "SELECT count(*) as x, average(duration) as y, sum(asnLatitude)/count(*) as lat, sum(asnLongitude)/count(*) as lng FROM PageView FACET regionCode, countryCode WHERE appName = 'WebPortal' ${countryCode ? ` WHERE countryCode like '%${countryCode}%' ` : ''} LIMIT 1000 ") {
                 results
                 nrql

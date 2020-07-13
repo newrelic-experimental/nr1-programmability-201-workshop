@@ -58,7 +58,7 @@ export default class SampleAppNerdletNerdlet extends React.Component {
     constructor(props) {
         super(props);
         this.state = { countryCode: null }
-        this.accountId = <YOUR_ACCOUNT_ID>;
+        this.accountId = <YOUR_ACCOUNT_ID>; //1966971
     }
     render() {
         const { countryCode } = this.state;
@@ -121,7 +121,7 @@ this.defaultMapCenter = [10.5731, -7.5898]
 
 ```js
 <GridItem>
-  <NerdGraphQuery query={mapData(mapData(countryCode))}>
+  <NerdGraphQuery query={mapData(countryCode)}>
       {({ loading, error, data }) => {
         if (loading) {
           return <Spinner fillContainer />;
@@ -199,7 +199,7 @@ export default class SampleAppNerdletNerdlet extends React.Component {
         super(props);
         this.state = { countryCode: null }
         this.defaultMapCenter = [10.5731, -7.5898];
-        this.accountId = 1606862;
+        this.accountId = 1966971;
     }
     render() {
         const { countryCode } = this.state;
