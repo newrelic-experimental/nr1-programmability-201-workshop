@@ -56,7 +56,7 @@ To complete **Step 1** do the following steps:
 1. Import the [`Grid`](https://developer.newrelic.com/components/grid), [`GridItem`](https://developer.newrelic.com/components/grid-item), [`TableChart`](https://developer.newrelic.com/components/table-chart), and `TextField` components into your application from the `nr1` library
 2. Create layout using [`Grid`](https://developer.newrelic.com/components/grid) and [`GridItem`](https://developer.newrelic.com/components/grid-item)
 3. Use the following query in your TableChart: "`FROM PageView SELECT count(*), average(duration) WHERE appName = 'WebPortal' ${countryCode ? ` WHERE countryCode like '%${countryCode}%' ` : ''} FACET countryCode, regionCode SINCE 1 week ago LIMIT 1000`"
-4. In the `contructor`, store the country code into application state: `this.state = { countryCode: null }`
+4. In the `constructor`, store the country code into application state: `this.state = { countryCode: null }`
 5. Update the country code when a user types in the text field: `onChange={(e) => { this.setState({ countryCode: e.target.value }); }}`
 
 Your application should look similar to this:
